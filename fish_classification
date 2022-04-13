@@ -10,12 +10,12 @@ library(klaR)
 library(ggcorrplot)
 library(factoextra)
 
-fish.data <- read.csv("C:/Users/moharahman/Downloads/Fish.csv", header=TRUE)
+fish.data <- read.csv("C:/Users/......../Downloads/Fish.csv", header=TRUE)
 View(fish.data)
 head(fish.data)
 summary(fish.data)
 
-fish <-filter(fish.data, ï..Species %in% c("Perch","Bream", "Roach"))
+fish <-filter(fish.data, Ã¯..Species %in% c("Perch","Bream", "Roach"))
 View(fish)
 
 str(fish)
